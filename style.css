@@ -511,3 +511,29 @@ body {
     top: -1.8rem;
     color: var(--main-color);
 }
+
+.respo {
+    display: none;
+}
+
+@media (max-width:991px) {
+    .wrapper {
+        display: none;
+    }
+
+    .respo {
+        min-height: 100vh;
+        font-size: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+@media (max-width:767px) {
+    .respo {
+        font-size: 2.5rem;
+    }
+}
